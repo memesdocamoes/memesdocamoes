@@ -24,10 +24,9 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: #0f172a; /* azul escuro / slate */
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 h1 {
@@ -59,7 +58,7 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
